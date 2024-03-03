@@ -36,13 +36,14 @@ Column Description for dim_stores:
 *******************************************
 
 Column Description for fact_events:
-event_id: Unique identifier for each sales event.
-store_id: Refers to the store where the event took place, linked to the dim_stores table.
-campaign_id: Indicates the campaign under which the event was recorded, linked to the dim_campaigns table.
-product_code: The code of the product involved in the sales event, linked to the dim_products table.
-base_price: The standard price of the product before any promotional discount.
-promo_type: The type of promotion applied (e.g., percentage discount, BOGOF(Buy One Get One Free), cashback).
-quantity_sold(before_promo): The number of units sold in the week immediately preceding the start of the campaign, serving as a baseline for comparison with promotional sales.
+
+event_id: Unique identifier for each sales event.  
+store_id: Refers to the store where the event took place, linked to the dim_stores table.  
+campaign_id: Indicates the campaign under which the event was recorded, linked to the dim_campaigns table.  
+product_code: The code of the product involved in the sales event, linked to the dim_products table.  
+base_price: The standard price of the product before any promotional discount.   
+promo_type: The type of promotion applied (e.g., percentage discount, BOGOF(Buy One Get One Free), cashback).   
+quantity_sold(before_promo): The number of units sold in the week immediately preceding the start of the campaign, serving as a baseline for comparison with promotional sales.   
 quantity_sold(after_promo): The quantity of the product sold after the promotion was applied.
 
 
