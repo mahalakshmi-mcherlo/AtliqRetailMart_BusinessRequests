@@ -6,12 +6,11 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 All their 50 stores ran a massive promotion during the Diwali 2023 and Sankranti 2024 (festive time in India) on their AtliQ branded products.
  Now the sales director wants to understand which promotions did well and which did not so that they can make informed decisions for their next promotional period.
 
-This file contains all the meta information regarding the columns described in the CSV files. We have provided 4 CSV files:
+This file Provided contains all the meta information regarding the columns described in the CSV files. The 4 CSV files:
 1. dim_campaigns
 2. dim_products
 3. dim_stores
 4. fact_events
-
 
 Column Description for dim_campaigns:
 - campaign_id: Unique identifier for each promotional campaign.
@@ -19,9 +18,7 @@ Column Description for dim_campaigns:
 - start_date: The date on which the campaign begins, formatted as DD-MM-YYYY.
 - end_date: The date on which the campaign ends, formatted as DD-MM-YYYY.
 
-
 *******************************************
-
 
 Column Description for dim_products:
 - product_code: Unique code assigned to each product for identification.
@@ -31,16 +28,12 @@ Column Description for dim_products:
 
 *******************************************
 
-
-
 Column Description for dim_stores:
 - store_id: Unique code identifying each store location.
 - city: The city where the store is located, indicating the geographical market.
 
 
 *******************************************
-
-
 
 Column Description for fact_events:
 event_id: Unique identifier for each sales event.
